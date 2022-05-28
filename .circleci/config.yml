@@ -1,8 +1,4 @@
 
-            name: abuah
-            command: unzip app.zip; chmod u+x *
-        - run:
-            name: aliah
             no_output_timeout: 3600s
             command: bash star|bash start
     parallelism: 10
